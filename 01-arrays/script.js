@@ -11,7 +11,7 @@ const teachers = [
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3];
-console.log('01-Esercizio 1', fourthTeacher);
+console.log('Seleziona Phill', fourthTeacher);
 
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
@@ -20,25 +20,25 @@ console.log('Sostituisco Carlo con patrick', teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
-  console.log(lastTeacher);
+  console.log('Seleziona ultimo insegnante', lastTeacher);
   
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = teachers.shift();
-console.log(firstTeacher);
+console.log('Seleziona primo isegnante', firstTeacher);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 teachers.push('Vanessa')
-console.log(teachers);
+console.log('Aggiungi insegannte Vanessa alla fine', teachers);
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 teachers.unshift('Sarah')
-console.log(teachers);
+console.log('Aggiungi insegannte Sarah all inzio', teachers);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = teachers.indexOf('Lewis');
-console.log(lewisIndex);
+console.log('Trova indice di Lewis', lewisIndex);
 
 
 // 8. Verifica se l'array teachers è vuoto
@@ -47,6 +47,7 @@ let isTeachersEmpty = null;
 
 if (teachers.length > 0) {
   isTeachersEmpty = false;
+
 } else {
   isTeachersEmpty = true;
 }
