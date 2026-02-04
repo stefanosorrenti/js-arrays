@@ -14,11 +14,17 @@ const reversedTeachers = teachers.toReversed();
 
 console.log('Lista isnegnanti al contrario.', reversedTeachers);
 
+for (let i = teachers.length; i > 0; i--) {
+ console.log('Lista isnegnanti al contrario ciclo for', teachers[i]);
+ 
+  
+}
 
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = null;
+
 
 // 3. Rimuovi 'Ed' dall'array teachers
 teachers.splice(1, 1)
@@ -31,6 +37,7 @@ console.log(isFabioPresent);
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 const teachersString = teachers.join();
 console.log(teachersString);
+
 
 
 
